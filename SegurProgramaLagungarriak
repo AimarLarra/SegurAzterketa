@@ -1,0 +1,15 @@
+* * * * * directorio/nombre.sh
+1 min     /X  cada x minutos
+2 h
+3 d
+4 m
+5 w
+
+crontab -l   lista
+crontab -r   borrar
+
+"$(date +"%d-%m-%Y")"
+
+backup.sh exekutablea
+mkdir /home/talcual/"$(date +"%d-%m-%Y")"
+rsync -av /directorio1/ /"$(date +"%d-%m-%Y")"
